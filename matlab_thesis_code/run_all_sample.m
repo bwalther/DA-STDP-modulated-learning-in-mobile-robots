@@ -71,6 +71,6 @@ plotWeightsPerLayer;
 load('data/train_pun_rdwk_SNW_30min','params');
 iz_testRobot(params.network,'testPunRandom',true);
 load('data/rdwk_attr_curiosity08','params');
-iz_testRobot(params.network,'testPunRandom',false);
+iz_testRobot(params.network,'testAttrRandom',false);
 load('data/trainAttrAvoidRandom','params');
 iz_testRobotAttractAvoid('testAttrAvoid4h',params.network);

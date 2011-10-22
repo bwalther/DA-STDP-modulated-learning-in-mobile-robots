@@ -1,0 +1,30 @@
+DA-Modulated STDP learning in mobile robots
+===============================================
+
+Version 1.0
+
+Based on Thesis: "A neurally controlled robot that learns"
+By Benjamin Walther Büel in partial fulfilment of the requirements for the MSc Degree in Computing Science / Artificial Intelligence of Imperial College London
+
+Please note: The code is very much in an experimental state.
+
+Description
+===============
+Spike time dependent plasticity (STDP) has been subject to much research in recent years and is understood as one of the causes for changes in synaptic efficiency. Reward modulated STDP via dopamine is a prime candidate to explain how the non-declarative long term memory in the mammalian brain learns. 
+
+This code demonstrates by apply a spiking neural network simulators to a robot environment how, learning via reward modulated STDP can happen in a simple motor-sensor loop.
+
+With instrumental conditioning we teach the robot to learn different behaviours such as obstacle avoidance, searching for food or combinations of the two. 
+
+Besides STDP, homeostatic plasticity is modelled by a simple activity dependent scaling application.
+
+Using the library
+==========================
+The different matlab function files and usage scenarios are described in the file run_all_sample.m.
+To understand the dynamics and logic you need to read through the individual code files.
+
+The matlab files were written with Matlab 7.11 (R2010b) and do not require any additional libraries.
+
+Im happy to hear feedback and suggestions under: ben.soot@gmail.com
+
+

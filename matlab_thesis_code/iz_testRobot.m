@@ -40,6 +40,13 @@ Env.nObjects=15;% 10, 5 the more object the more confused robot can get if 2 are
 Env.wrapped=true;
 Env.Obs=createObstacles;
 
+%% hardcoding weights
+params.network.s(params.network.cSLML)=0.65;
+params.network.s(params.network.cSLMR)=0.7;
+
+params.network.s(params.network.cSRMR)=0.6;
+params.network.s(params.network.cSRML)=0.64;
+
 %% init neuron controller
 %ncontroller=iz_NControllerTest(params);
 ncontroller=iz_NController(params);
