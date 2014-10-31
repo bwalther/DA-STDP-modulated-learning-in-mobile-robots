@@ -4,7 +4,7 @@ DA-Modulated STDP learning in mobile robots
 Version 1.0
 
 Based on Thesis: "A neurally controlled robot that learns"
-By Benjamin Walther Büel in partial fulfilment of the requirements for the MSc Degree in Computing Science / Artificial Intelligence of Imperial College London
+By Benjamin Walther BÃ¼el in partial fulfilment of the requirements for the MSc Degree in Computing Science / Artificial Intelligence of Imperial College London
 
 Please note: The code is very much in an experimental state.
 
@@ -25,6 +25,6 @@ To understand the dynamics and logic you need to read through the individual cod
 
 The matlab files were written with Matlab 7.11 (R2010b) and do not require any additional libraries.
 
-Im happy to hear feedback and suggestions under: ben.soot@gmail.com
+Im happy to hear feedback and suggestions .
 
 
